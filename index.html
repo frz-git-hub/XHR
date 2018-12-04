@@ -1,5 +1,22 @@
 <html>
+
+    <head>
+        <title>XHR</title>
+    </head>
+
     <body>
-        hi, there !
+
+        XHR : 
+
+        <pre id="readme" ></pre>
+        
+        <script type="text/javascript" src="./xhr.js" ></script>
+        <script type="text/javascript">
+            sendXHR('GET', './ReadMe.txt', null, function(response){
+                document.querySelector('body pre#readme').innerHTML = response;
+            });
+        </script>
+
     </body>
+
 </html>
