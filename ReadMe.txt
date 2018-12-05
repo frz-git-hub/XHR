@@ -1,6 +1,4 @@
-Hi, There !!
-I'm Sam. I'm here
-For helping you...
-What the fuck is that ?
-
-&copy; Copyright 2018
+Hi, There !!<br>
+I'm Sam. I'm here<br>
+For helping you...<br>
+What the fuck is that ?<br><br>

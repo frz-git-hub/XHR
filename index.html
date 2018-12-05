@@ -10,14 +10,19 @@
         <!-- Main -->
         <main>
             <p id="title" >XHR</p> 
-            <pre id="readme" ></pre>
+            <article id="readme" ></article>
+            
         </main>
+
+        <footer>
+            <p>&copy; Copyright 2018 &minus; <a href="./term.html" >Term</a> </p>
+        </footer>
 
         <!-- JS -->
         <script type="text/javascript" src="./xhr.js" ></script>
         <script type="text/javascript">
             sendXHR('GET', './ReadMe.txt', null, function(response){
-                document.querySelector('body pre#readme').innerHTML = response;
+                document.querySelector('#readme').innerHTML = response;
             });
         </script>
 
