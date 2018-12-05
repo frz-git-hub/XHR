@@ -7,10 +7,13 @@
 
     <body>
 
-        <p id="title" >XHR</p> 
+        <!-- Main -->
+        <main>
+            <p id="title" >XHR</p> 
+            <pre id="readme" ></pre>
+        </main>
 
-        <pre id="readme" ></pre>
-        
+        <!-- JS -->
         <script type="text/javascript" src="./xhr.js" ></script>
         <script type="text/javascript">
             sendXHR('GET', './ReadMe.txt', null, function(response){
